@@ -52,6 +52,7 @@ h1 {
     font-size: 16px;
     color: #ec2399;
     background-color: white;
+    text-decoration: none;
 }
 
 .menu:hover {
@@ -93,7 +94,7 @@ h1 {
 .footer {
     text-align: center;
     background-color: #ec2399;
-    font-family: sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     font-weight: 500;
     font-size: 11px;
     color: cornsilk;
