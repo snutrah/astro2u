@@ -103,6 +103,10 @@ h1 {
     font-weight: 500;
     font-size: 11px;
     color: cornsilk;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;    
 }
 
 .pfoot a {
