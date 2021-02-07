@@ -34,14 +34,6 @@ h1 {
     100%{   color: #000;    }
 }
 
-/* h1:hover {
-    font-family: 'MuseoModerno', cursive; Helvetica, sans-serif;
-    text-align: center;
-    text-transform: lowercase;
-    color: black;
-    top: 200px;
-} */
-
 #nav { 
     font-weight: 500;
     display: flex;
@@ -101,10 +93,10 @@ h1 {
 .footer {
     text-align: center;
     position: relative;
-    bottom: 150px;
     background-color: #ec2399;
     font-family: sans-serif;
     font-weight: 500;
+    font-size: 11px;
     color: cornsilk;
 }
 
