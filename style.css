@@ -1,0 +1,119 @@
+.logo {
+    width: 100%;
+}
+
+.logo-row {
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+
+h1 {
+    font-family: 'MuseoModerno', cursive; Helvetica, sans-serif;
+    text-align: center;
+    text-transform: lowercase;
+    color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.head {
+    position: relative;
+    bottom: 15px;
+    right: 10px;   
+    }
+
+h1 {
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+/* h1:hover {
+    font-family: 'MuseoModerno', cursive; Helvetica, sans-serif;
+    text-align: center;
+    text-transform: lowercase;
+    color: black;
+    top: 200px;
+} */
+
+#nav { 
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid none;
+  
+    border-left: none;
+    border-right: none;
+   
+}
+.menu {
+    text-align: center;
+    width: 20ex;
+    font-family: 'MuseoModerno', cursive; Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ec2399;
+    background-color: white;
+}
+
+.menu:hover {
+    background-color: #fde9f4;
+    color: #ec2399;
+    font-family: 'MuseoModerno', cursive; Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 10%;
+}
+
+#title {
+    position: relative;
+    bottom: 170px;
+}
+
+.para {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#h2 {
+    position: relative;
+    bottom: 170px;
+}
+
+#title {
+    font-size: 11px;
+    font-weight: bold;
+    bottom: 279px;
+    left: 65px;
+}
+
+#para1 {
+    position: relative;
+    bottom: 180px;
+    font-weight: bolder;
+}
+
+.footer {
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    background-color: #ec2399;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: cornsilk;
+}
+
+.pfoot a {
+    text-decoration: none;
+    font-weight: 600;
+    color: darkmagenta;
+}
+
+.pfoot a:hover {
+    color: white;
+}
